@@ -1,0 +1,91 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #0000ff;
+    --note-color: #555555;
+    --hr-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1a1a1a;
+        --text-color: #eeeeee;
+        --link-color: #add8e6;
+        --note-color: #aaaaaa;
+        --hr-color: #eeeeee;
+    }
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--hr-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+}
+
+.column ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.column li {
+    margin-bottom: 15px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.description {
+    display: block;
+    font-size: 14px;
+    color: var(--note-color);
+    margin-top: 3px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.footer-content {
+    text-align: center;
+    margin: 20px 0;
+}
