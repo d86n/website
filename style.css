@@ -79,6 +79,10 @@ hr {
     background-color: var(--hr-color);
 }
 
+main {
+    font-size: 17px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
