@@ -1,0 +1,19 @@
+#unified-extensions-button {
+  display: none !important;
+}
+
+:root {
+  --tab-min-height: 28px !important;
+}
+
+#tabbrowser-tabs,
+#tabbrowser-tabs > #tabbrowser-arrowscrollbox,
+.tabbrowser-tabs .tabbrowser-tab {
+  min-height: var(--tab-min-height) !important;
+  max-height: var(--tab-min-height) !important;
+}
+
+.tab-background {
+  border-radius: 0px 0px 0px 0px !important;
+  margin-block: 0px !important;
+}
