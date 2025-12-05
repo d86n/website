@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://nvdien.me/</loc>
+      <priority>1.0</priority>
+   </url>
+   
+   <url>
+      <loc>https://nvdien.me/catia</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/solidworks</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/designx</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/coppeliasim</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/matlab</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/ros2</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/python</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/plc</loc>
+   </url>
+   <url>
+      <loc>https://nvdien.me/bbl</loc>
+   </url>
+</urlset>
